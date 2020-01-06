@@ -1,0 +1,17 @@
+//*************DELETEProfile*******
+http://18.139.222.192/node/express/api/profile/deleteprofile/education
+        "ID_Education" : "ID_Education"
+
+http://18.139.222.192/node/express/api/profile/deleteprofile/skill
+        "ID_Skill" : "ID_Skill"
+
+http://18.139.222.192/node/express/api/profile/deleteprofile/personal
+        "ID_Personal": "ID_Personal"
+
+//*************DELETEExperience*******
+http://18.139.222.192/node/express/api/profile/deleteexperience/experience
+        "ID_Exper": "ID_Exper"
+
+//*************DELETELog*******
+http://18.139.222.192/node/express/api/log/deletelog/
+        "IDLog": "IDLog"

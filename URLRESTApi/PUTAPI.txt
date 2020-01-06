@@ -1,0 +1,62 @@
+//*************PUTProfile*******
+http://18.139.222.192/node/express/api/profile/putprofile/education
+        "ID_Name" : "ID_Name",
+        "ID_Education" : "ID_Education",
+        "Degree" : "Degree",
+        "Area" : "Area",
+        "Location" : "Location"
+
+http://18.139.222.192/node/express/api/profile/putprofile/skill
+        "ID_Name" : "ID_Name",
+        "ID_Skill" : "ID_Skill",
+        "Skill" : "Skill"
+
+http://18.139.222.192/node/express/api/profile/putprofile/personal
+        "ID_Name": "ID_Name",
+        "ID_Strength": "ID_Strength",
+        "ID_Personal": "ID_Personal",
+        "Strength": "Strength"
+
+http://18.139.222.192/node/express/api/profile/putprofile/line
+        "ID_Name": "ID_Name",
+        "Line": "Line"
+
+http://18.139.222.192/node/express/api/profile/putprofile/tel
+        "ID_Name": "ID_Name",
+        "Tel": "Tel"
+
+http://18.139.222.192/node/express/api/profile/putprofile/newpassword
+        "ID_Name": "ID_Name",
+        "Oldpassword": "Oldpassword",
+        "Newpassword": "Newpassword",
+
+
+//*************PUTExperience*******
+http://18.139.222.192/node/express/api/profile/putexperience/experience
+	"ID_Name": "ID_Name",
+        ID_Exper: "ID_Exper",
+        "Year": "Year",
+        "Topic": "Topic",
+        "Detail": "Detail",
+        "Company": "Company"
+
+//*************PUTLog*******
+http://18.139.222.192/node/express/api/log/putlog/statuslog/
+        "IDLog": "IDLog",
+        "StatusLog": "StatusLog"
+
+http://18.139.222.192/node/express/api/log/putlog/statusapprove/
+        "IDLog": "IDLog",
+        "StatusApprove": "StatusApprove"
+
+//*************PUT Squash*******
+http://18.139.222.192/node/express/api/development/putsquash/statussquash
+        "ID_Schedules": "ID_Schedules"
+        "Status": "Status"
+
+http://18.139.222.192/node/express/api/development/putsquash/squashdiscussion
+        "ID_squash": "ID_squash",
+        "Discussion": "Discussion",
+        "Conclusion": "Conclusion",
+        "Feedback": "Feedback",
+        "StatusA" : "StatusA"

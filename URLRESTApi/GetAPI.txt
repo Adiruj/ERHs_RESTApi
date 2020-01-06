@@ -1,0 +1,61 @@
+//*************GetBadge*******
+http://18.139.222.192/node/express/api/badge/getbadge/:ID_Name
+
+express\routes\Log\imagelog
+//*************GetProfile*******
+http://18.139.222.192/node/express/api/profile/getprofile/user/:ID_Name
+http://18.139.222.192/node/express/api/profile/getprofile/education/:ID_Name
+http://18.139.222.192/node/express/api/profile/getprofile/skill/:ID_Name
+http://18.139.222.192/node/express/api/profile/getprofile/personal/:ID_Name
+http://18.139.222.192/node/express/api/profile/getprofile/listpersonal
+http://18.139.222.192/node/express/api/profile/getprofile/colorstrength/:ID_Strength
+http://18.139.222.192/node/express/api/profile/getprofile/employee/:ID_Name
+
+
+//*************GetExperience*******
+http://18.139.222.192/node/express/api/profile/getexperience/:ID_Name
+
+//*************GetExpectation*******
+http://18.139.222.192/node/express/api/profile/getexpectation/jd/:ID_Name
+http://18.139.222.192/node/express/api/profile/getexpectation/behavior/:ID_Name
+http://18.139.222.192/node/express/api/profile/getexpectation/kpi/:ID_Name
+http://18.139.222.192/node/express/api/profile/getexpectation/core/:ID_Name
+http://18.139.222.192/node/express/api/profile/getexpectation/managerial/:ID_Name
+
+
+//*************Get LOG*******//
+http://18.139.222.192/node/express/api/log/getlog/search/:ID_Name/:Type/:Item/:Year/:Month             ==> http://18.139.222.192/node/express/api/log/getlog/search/11/Positive/Safety/2019/10
+http://18.139.222.192/node/express/api/log/getlog/:ID_Name/:ID_Log                                      ==> http://18.139.222.192/node/express/api/log/getlog/11/62
+http://18.139.222.192/node/express/api/log/getlog/summary/:ID_Name/:Month/:Year                         ==> http://18.139.222.192/node/express/api/log/getlog/summary/11/All/2019
+http://18.139.222.192/node/express/api/log/getlog/itemlog
+
+//*************Get Approve*******//
+http://18.139.222.192/node/express/api/log/getapprove/request/:ID_Name                                  ==> http://18.139.222.192/node/express/api/log/getapprove/request/9
+http://18.139.222.192/node/express/api/log/getapprove/accept/:ID_Name                                   ==> http://18.139.222.192/node/express/api/log/getapprove/accept/9
+http://18.139.222.192/node/express/api/log/getapprove/reject/:ID_Name                                   ==> http://18.139.222.192/node/express/api/log/getapprove/reject/9
+http://18.139.222.192/node/express/api/log/getapprove/detail/:ID_Log                                    ==> http://18.139.222.192/node/express/api/log/getapprove/detail/36
+http://18.139.222.192/node/express/api/log/getapprove/serach/accept/:ID_Name/:Item/:Year/:Month
+http://18.139.222.192/node/express/api/log/getapprove/serach/reject/:ID_Name/:Item/:Year/:Month
+
+//*************Get Evaluation*******//
+************Performance*************************************************
+http://18.139.222.192/node/express/api/evaluation/getperformance/dept/:ID_Name/:Month/:Year             ==> http://18.139.222.192/node/express/api/evaluation/getperformance/dept/11/10/2019
+http://18.139.222.192/node/express/api/evaluation/getperformance/section/:ID_Name/:ID_Name/:Year        ==> http://18.139.222.192/node/express/api/evaluation/getperformance/section/11/10/2019
+http://18.139.222.192/node/express/api/evaluation/getperformance/individual/:ID_Name/:ID_Name/:Year     ==> http://18.139.222.192/node/express/api/evaluation/getperformance/individual/11/10/2019
+
+************Potential****************************************************
+http://18.139.222.192/node/express/api/evaluation/getperformance/core/:ID_Name/:Quator/:Year            ==> http://18.139.222.192/node/express/api/evaluation/getpotential/core/11/Q4/2019
+http://18.139.222.192/node/express/api/evaluation/getperformance/managerial/:ID_Name/:Quator/:Year      ==> http://18.139.222.192/node/express/api/evaluation/getpotential/managerial/11/Q4/2019
+
+************Summary*****************************************************
+http://18.139.222.192/node/express/api/evaluation/getsummary/potential/:ID_Name/:Quator/:Year           ==> http://18.139.222.192/node/express/api/evaluation/getsummary/potential/11/Q4/2019
+http://18.139.222.192/node/express/api/evaluation/getsummary/performance/:ID_Name/:Quator/:Year         ==> http://18.139.222.192/node/express/api/evaluation/getsummary/performance/11/All/2019       
+http://18.139.222.192/node/express/api/evaluation/getsummary/summary/:ID_Name/:Quator/:Year             ==> http://18.139.222.192/node/express/api/evaluation/getsummary/summary/11/All/2019
+
+////////////////////////////////////////////////////////////////////////////
+
+
+//*************Get Develop*******//
+************Schedule*************************************************
+http://18.139.222.192/node/express/api/development/getshcedule/:ID_Name                                 ==> http://18.139.222.192/node/express/api/development/getshcedule/9
+http://18.139.222.192/node/express/api/development/getsummary/:ID_Name                                  ==> http://18.139.222.192/node/express/api/development/getsummary/9

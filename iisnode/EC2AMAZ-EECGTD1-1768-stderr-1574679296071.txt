@@ -1,0 +1,13 @@
+(node:1768) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1768) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+ReferenceError: mysqlConnection is not defined
+    at GetProfile (C:\Program Files\iisnode\www\express\routes\Profile\Profileget.js:6:5)
+    at callbacks (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:272:11)
+    at param (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:246:11)
+    at param (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:243:11)
+    at pass (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:253:5)
+    at Router._dispatch (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:280:5)
+    at Object.Router.middleware [as handle] (C:\Program Files\iisnode\www\express\node_modules\express\lib\router\index.js:45:10)
+    at next (C:\Program Files\iisnode\www\express\node_modules\connect\lib\http.js:198:15)
+    at Object.handle (C:\Program Files\iisnode\www\express\server.js:30:3)
+    at next (C:\Program Files\iisnode\www\express\node_modules\connect\lib\http.js:198:15)

@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (net.js:1283:19)
+    at listenInCluster (net.js:1348:12)
+    at Server.listen (net.js:1436:7)
+    at Function.listen (C:\Program Files\iisnode\www\express\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Program Files\iisnode\www\express\server.js:180:5)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)

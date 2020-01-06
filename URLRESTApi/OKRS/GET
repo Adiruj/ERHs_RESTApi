@@ -1,0 +1,24 @@
+/////////////////////// HOME //////////////////////////////////
+USER Header    ==> http://18.139.222.192/node/express/api/okrs/home/user/:ID_Name
+Corporate Item ==> http://18.139.222.192/node/express/api/okrs/home/okr/:ID_Name
+Team           ==> http://18.139.222.192/node/express/api/okrs/home/team/:ID_Name
+Individual     ==> http://18.139.222.192/node/express/api/okrs/home/individual/:ID_Name
+
+
+
+///////////////////// Individual ///////////////////////
+Individual HOME     ==> http://18.139.222.192/node/express/api/okrs/individual/main/:ID_Name
+Individual Detail   ==> http://18.139.222.192/node/express/api/okrs/individual/detail/:ID_Personal
+
+
+///////////////////// Team ///////////////////////
+Team HOME               ==> http://18.139.222.192/node/express/api/okrs/team/main/:ID_Name
+Team Detail             ==> http://18.139.222.192/node/express/api/okrs/team/detail/:ID_Team
+Team Detailpersonal     ==> http://18.139.222.192/node/express/api/okrs/team/detailpersonal/:ID_Name
+
+
+///////////////////// Corporate ///////////////////////
+OKR Corporate              ==> http://18.139.222.192/node/express/api/okrs/team/main/:ID_Name
+KR Corporate               ==> http://18.139.222.192/node/express/api/okrs/team/detail/:ID_Corporate (OK)
+OKR Team                   ==> http://18.139.222.192/node/express/api/okrs/corporate/okrteam/:ID_Teamcorporate (OK)
+KR Team                    ==> http://18.139.222.192/node/express/api/okrs/corporate/krteam/:ID_Team  (OK)

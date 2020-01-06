@@ -1,0 +1,55 @@
+//*************PostProfile*******
+http://18.139.222.192/node/express/api/profile/postprofile/education
+        "ID_Name" : "ID_Name",
+        "Degree" : "Degree",
+        "Area" : "Area",
+        "Location" : "Location"
+
+http://18.139.222.192/node/express/api/profile/postprofile/skill
+        "ID_Name" : "ID_Name",
+        "Skill" : "Skill"
+
+http://18.139.222.192/node/express/api/profile/postprofile/personal
+        "ID_Name": "ID_Name",
+        "ID_Strength": "ID_Strength",
+        "Strength": "Strength"
+
+//*************Post Experience*******
+http://18.139.222.192/node/express/api/profile/postexperience/experience
+	"ID_Name": "ID_Name",
+        "Year": "Year",
+        "Topic": "Topic",
+        "Detail": "Detail",
+        "Company": "Company"
+
+//*************Post LOG*******
+http://18.139.222.192/node/express/api/log/postlog/
+        "ID_Name": "ID_Name",
+        "ID_Company": "ID_Company",
+        "ID_Employee": "ID_Employee",
+        "Type": "Type",
+        "Item": "Item",
+        "Date": "Date",
+        "Time": "Time",
+        "Shift": "Shift",
+        "Situation": "Situation",
+        "Task": "Task",
+        "Action": "Action",
+        "Result": "Result",
+        "Recorder": "Recorder",
+        "StatusLog": "StatusLog",
+        "Approve": "Approve",
+        "StatusApprove": "StatusApprove"
+        **** == > Uploadphotolog ==> "Image": 
+
+//*************Post Squash*******
+http://18.139.222.192/node/express/api/development/postsquash/
+        "ID_Name": "ID_Name",
+        "Squash": "Squash",
+        "Dates": "Dates",
+        "StartTime": "StartTime",
+        "EndTime": "EndTime",
+        "Item": "Item",
+        "Topic": "Topic",
+        "EmployeeID1": "EmployeeID1",
+        "EmployeeID2": "EmployeeID2"
